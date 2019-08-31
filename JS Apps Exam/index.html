@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SoftBay</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <div id="main"></div>
+    <!--Notifications (BONUS - Not required)-->
+    <!-- <section id="notifications">
+        <div class="p-3 mb-2 bg-success w-50 text-white text-center" id="successNotification">Success</div>
+        <div class="p-3 mb-2 bg-danger w-50 text-white text-center" id="errorNotification">Error</div>
+        <div class="p-3 mb-2 bg-info w-50 text-white text-center" id="loadingNotification">Loading...</div>
+    </section> -->
+    <!-- ./Notifications (BONUS - Not required)-->
+
+    <!--Profile-Page (Bonus - Not Required)-->
+    <!-- <div style="padding: 5%;" class="container">
+        <div class="row">
+            <div class="col-md-6 img">
+                <img style="text-align: center; max-width: 450px;" src="./images/userIcon.png" alt=""
+                    class="img-rounded">
+            </div>
+            <div style="border-left:3px solid #ded4da;" class="col-md-6 details">
+                <h2>Profile Page</h2>
+                <blockquote>
+                    <p>Username: <strong>USERNAME</strong></p>
+                    <p>Proffesion: <strong>JavaScript Web Developer</strong></p>
+                    <p>City: <strong>Sofia</strong></p>
+                    <p>Hobby: <strong>Coding (hyped) :0</strong></p>
+                    <p style="text-decoration: underline;">Number of purchases: <strong>74</strong></p>
+            </div>
+        </div>
+    </div> -->
+    <!--./Profile-Page (Bonus - Not Required)-->
+
+    <!-- Node Modules -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/handlebars/dist/handlebars.js"></script>
+    <script src="./node_modules/sammy/lib/sammy.js"></script>
+    <script src="./node_modules/sammy/lib/plugins/sammy.handlebars.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- ./Node Modules -->
+
+    <!-- Helpers -->
+    <script src="./helpers/requester.js"></script>
+    <script src="./helpers/storage.js"></script>
+    <script src="./helpers/helper.js"></script>
+
+    <!-- Controllers -->
+    <script src="./controllers/homeController.js"></script>
+    <script src="./controllers/userController.js"></script>
+    <script src="./controllers/offerController.js"></script>
+
+    <!-- Models -->
+    <script src="./models/userModel.js"></script>
+    <script src="./models/offerModel.js"></script>
+
+    <!-- App -->
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
